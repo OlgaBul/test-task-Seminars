@@ -12,7 +12,7 @@
 ## Установка и запуск приложения:
 Клонировать репозиторий:
 
-    git clone
+    git clone https://github.com/OlgaBul/test-task-Seminars.git
 
 Установить зависимости:
 
@@ -20,4 +20,4 @@
 
 Запустить приложение:
 
-    npm run start
+    npm run dev

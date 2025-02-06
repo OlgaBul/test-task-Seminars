@@ -7,7 +7,7 @@ import { format, parse } from "date-fns";
 const SeminarList = () => {
   const [data, setData] = useState([]); // Состояние для хранения семинаров
   const [editingSeminar, setEditingSeminar] = useState(null); // Состояние для редактируемого семинара
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); // Состояние для открытия модального окна
 
   useEffect(() => {
     fetchData();
